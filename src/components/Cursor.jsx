@@ -7,6 +7,10 @@ export default function Cursor() {
   const [isHovering, setIsHovering] = useState(false);
 
   useEffect(() => {
+    // Only run cursor logic on devices that have a mouse
+    const hasMouse = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+    if (!hasMouse) return;
+
     const onMouseMove = (e) => {
       setPosition({ x: e.clientX, y: e.clientY });
     };

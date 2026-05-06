@@ -219,11 +219,13 @@ ul {
   background: var(--color-burnt-rose);
 }
 
-/* Custom Cursor Effects */
-body {
-  cursor: none; /* Hide default cursor to use custom one */
-}
+/* Custom Cursor Effects - Only on desktop/mouse devices */
+@media (hover: hover) and (pointer: fine) {
+  body {
+    cursor: none; /* Hide default cursor to use custom one */
+  }
 
-a, button, .project-card, .project-card-horizontal, .skill-card {
-  cursor: none !important;
+  a, button, .project-card, .project-card-horizontal, .skill-card {
+    cursor: none !important;
+  }
 }

@@ -38,9 +38,9 @@
   background-color: rgba(163, 92, 109, 0.2);
 }
 
-@media (max-width: 1024px) {
-  .custom-cursor-dot, .custom-cursor-glow {
-    display: none;
+@media (hover: none), (pointer: coarse), (max-width: 1024px) {
+  .custom-cursor-icon, .custom-cursor-glow {
+    display: none !important;
   }
   
   body, a, button, .project-card, .project-card-horizontal, .skill-card {
