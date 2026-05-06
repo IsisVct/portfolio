@@ -1,0 +1,49 @@
+.custom-cursor-icon {
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: var(--color-burnt-rose);
+  transform: translate(-2px, -2px);
+  pointer-events: none;
+  z-index: 9999;
+  transition: color 0.2s;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));
+}
+
+.custom-cursor-glow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(213, 166, 161, 0.15);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 9998;
+  transition: width 0.2s, height 0.2s, background-color 0.2s, transform 0.1s ease-out;
+  filter: blur(2px);
+}
+
+.custom-cursor-icon.hover {
+  color: var(--color-rose-gold);
+}
+
+.custom-cursor-glow.hover {
+  width: 30px;
+  height: 30px;
+  background-color: rgba(163, 92, 109, 0.2);
+}
+
+@media (max-width: 1024px) {
+  .custom-cursor-dot, .custom-cursor-glow {
+    display: none;
+  }
+  
+  body, a, button, .project-card, .project-card-horizontal, .skill-card {
+    cursor: auto !important;
+  }
+}

@@ -1,0 +1,56 @@
+.differentials-section {
+  padding: 5rem 2rem;
+  margin: 2rem auto;
+  position: relative;
+}
+
+.differentials-section .section-title {
+  color: var(--color-dark-text);
+}
+
+.diff-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.diff-card {
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  background: var(--glass-bg);
+  border-radius: 24px;
+  border: 1px solid var(--glass-border);
+}
+
+.diff-card:hover {
+  transform: translateY(-5px);
+  background: var(--color-off-white);
+  box-shadow: var(--shadow-soft);
+}
+
+.diff-icon {
+  display: inline-flex;
+  padding: 1.2rem;
+  border-radius: 20px;
+  background: rgba(213, 166, 161, 0.15);
+  color: var(--color-burnt-rose);
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.diff-card:hover .diff-icon {
+  background: var(--color-burnt-rose);
+  color: white;
+  border-radius: 50%;
+  transform: scale(1.1);
+  box-shadow: var(--shadow-glow);
+}
+
+.diff-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-dark-text);
+  font-family: var(--font-body);
+}
