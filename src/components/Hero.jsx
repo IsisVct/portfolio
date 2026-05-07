@@ -5,7 +5,7 @@ import './Hero.css';
 export default function Hero() {
   const [text, setText] = useState('');
   const [isTyping, setIsTyping] = useState(true);
-  const fullText = "Desenvolvedora Back-end | Data Science";
+  const fullText = "Desenvolvedora Full Stack | Data Science";
 
   useEffect(() => {
     let timeout;

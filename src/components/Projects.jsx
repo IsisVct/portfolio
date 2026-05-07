@@ -12,7 +12,7 @@ const projects = [
   {
     title: 'Bela Venda — Sistema de Gestão',
     description: 'Sistema completo para revendedoras de cosméticos que centraliza vendas, estoque e financeiro. Inclui automação (como leitura de nota fiscal via PDF) e controle inteligente de pedidos, permitindo operação eficiente e baseada em dados.',
-    tags: ['React', 'Node.js', 'PostgreSQL', 'PDF Parsing'],
+    tags: ['React', 'Supabase (Auth + RLS)', 'PostgreSQL', 'PDF Parsing'],
     image: '/belavenda.png',
     github: 'https://github.com/IsisVct/BelaVenda',
     demo: 'https://bela-venda.vercel.app/'
@@ -20,7 +20,7 @@ const projects = [
   {
     title: 'Monitor Regulatório',
     description: 'Sistema de automação que coleta e organiza dados de portais financeiros (BACEN, CVM) via web scraping. Elimina verificação manual e mantém informações atualizadas continuamente para análise.',
-    tags: ['Python', 'Web Scraping', 'Automação', 'ETL'],
+    tags: ['.NET', 'Web Scraping', 'Automação', 'ETL'],
     image: '/monitor.png',
     github: 'https://github.com/IsisVct/monitor-regulatorio-front',
     demo: 'https://monitor-regulatorio-front.vercel.app/'
