@@ -70,6 +70,7 @@ export default function Navbar() {
         </a>
         <div className="navbar-links">
           <a href="#sobre" className="nav-link">Sobre Mim</a>
+          <a href="#educacao" className="nav-link">Educação</a>
           <a href="#projetos" className="nav-link">Projetos</a>
           
           <button onClick={toggleTheme} className="theme-toggle" aria-label="Toggle Theme">
@@ -91,6 +92,7 @@ export default function Navbar() {
 
       <div className={`mobile-menu ${mobileMenuOpen ? 'open' : ''}`}>
         <a href="#sobre" className="mobile-nav-link" onClick={closeMobileMenu}>Sobre Mim</a>
+        <a href="#educacao" className="mobile-nav-link" onClick={closeMobileMenu}>Educação</a>
         <a href="#projetos" className="mobile-nav-link" onClick={closeMobileMenu}>Projetos</a>
         <a href="#contato" className="btn btn-primary" onClick={closeMobileMenu} style={{marginTop: '1rem'}}>Contato</a>
       </div>
