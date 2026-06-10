@@ -20,11 +20,11 @@ const educationData = [
     side: 'right'
   },
   {
-    title: 'Tecnologia em Inteligência Artificial',
-    institution: 'UNIVESP — Universidade Virtual do Estado de São Paulo (Atual)',
-    period: '2026 - Presente',
-    description: 'Graduação focada em modelos inteligentes de tomada de decisão e processamento de dados em larga escala. Abrange conceitos de Aprendizado de Máquina (Machine Learning), Processamento de Linguagem Natural (NLP), engenharia de dados, estatística aplicada e ética em IA.',
-    skills: ['Python', 'Machine Learning', 'Deep Learning', 'Processamento de Linguagem Natural (NLP)', 'Ciência de Dados', 'Pandas & NumPy', 'Scikit-Learn'],
+    title: 'Bacharelado em Inteligência Artificial',
+    institution: 'UNIVESP — Universidade Virtual do Estado de São Paulo',
+    period: 'Junho/2026 - Presente',
+    description: 'Bacharelado voltado ao desenvolvimento de sistemas inteligentes, modelagem matemática, análise e processamento de dados em larga escala. A formação abrange desde algoritmos, estruturas de dados e engenharia de software até aprendizado de máquina (Machine Learning), redes neurais e processamento de linguagem natural (NLP).',
+    skills: ['Python', 'Algoritmos & Programação', 'Estruturas de Dados', 'Pensamento Computacional', 'Ciência de Dados', 'Machine Learning'],
     side: 'left'
   }
 ];
