@@ -4,8 +4,8 @@ import './Education.css';
 
 const educationData = [
   {
-    title: 'Ensino Médio Técnico em Informática',
-    institution: 'Ensino Médio Integrado',
+    title: 'Ensino Médio Técnico em Desenvolvimento de Sistemas',
+    institution: 'Etec Doutor Celso Giglio',
     period: '2022 - 2024',
     description: 'Formação técnica integrada voltada à análise de sistemas e desenvolvimento de software. Aprendizado focado em algoritmos, modelagem de requisitos funcionais e não funcionais, bancos de dados e design de interfaces com Bootstrap. Desenvolvimento prático de aplicações desktop e mobile com C# (Windows Forms e .NET MAUI), além de sistemas web com PHP e JavaScript.',
     skills: ['C# (Forms / MAUI)', 'PHP', 'JavaScript', 'Banco de Dados', 'Algoritmos', 'Análise de Sistemas', 'Requisitos (Funcionais/Não Funcionais)', 'Bootstrap'],
