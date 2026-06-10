@@ -1,4 +1,5 @@
 import React from 'react';
+import { Star } from 'lucide-react';
 import './About.css';
 
 export default function About() {
@@ -7,14 +8,19 @@ export default function About() {
       <div className="glass-panel about-panel">
         <div className="about-content">
           <h2 className="section-title">Sobre Mim</h2>
+          
+          <h3 className="about-greeting">
+            Muito prazer, Isabelle aqui!
+            <span className="about-star-badge">
+              <Star size={16} fill="#fff" stroke="#fff" />
+            </span>
+          </h3>
+          
           <p className="about-text">
-            Sou uma <strong>Desenvolvedora Full Stack</strong> com foco em criar aplicações web, APIs e processamento de dados eficientes e elegantes. Tenho paixão por tecnologia e uma enorme vontade de evoluir.
+            Sou <strong>desenvolvedora</strong> e gosto de transformar ideias em <strong>produtos digitais</strong> que funcionam de verdade. No dia a dia, eu faço a ponte entre a <strong>estrutura dos dados</strong> e o que o usuário final enxerga na tela, sempre tentando deixar tudo o mais <strong>fluido e inteligente</strong> possível.
           </p>
           <p className="about-text">
-            Meu perfil é marcado pela <strong>ambição e criatividade</strong>. Com facilidade para aprendizado rápido, procuro transformar ideias e desafios complexos em produtos digitais funcionais, sempre focando em boas práticas, arquitetura escalável e em uma experiência de usuário excepcional.
-          </p>
-          <p className="about-text">
-            Busco oportunidades onde possa não apenas entregar soluções reais, mas também crescer profissionalmente e colaborar em projetos que façam a diferença.
+            Detesto ficar estagnada, então estou sempre correndo atrás de <strong>aprender algo novo</strong>. Se você tem um projeto desafiador e procura alguém que <strong>aprende rápido</strong> e <strong>joga junto com o time</strong>, vamos conversar!
           </p>
         </div>
         <div className="about-visual">
@@ -24,3 +30,4 @@ export default function About() {
     </section>
   );
 }
+

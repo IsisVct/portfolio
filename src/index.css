@@ -13,6 +13,7 @@
   /* Fonts */
   --font-heading: 'Playfair Display', serif;
   --font-body: 'Outfit', sans-serif;
+  --font-cursive: 'Dancing Script', cursive;
   
   /* Effects */
   --glass-bg: rgba(255, 255, 255, 0.4);

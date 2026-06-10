@@ -2,7 +2,8 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  padding-top: 5rem; /* Account for navbar */
+  padding-top: 5rem;
+  /* Account for navbar */
 }
 
 .hero-grid {
@@ -38,7 +39,9 @@
 }
 
 @keyframes blink {
-  50% { opacity: 0; }
+  50% {
+    opacity: 0;
+  }
 }
 
 .hero-title {
@@ -46,6 +49,23 @@
   margin-bottom: 1.5rem;
   color: var(--color-dark-text);
   letter-spacing: -1px;
+  line-height: 1.15;
+}
+
+.hero-greeting-cursive {
+  font-family: var(--font-cursive);
+  font-size: 4.5rem;
+  color: #000;
+  font-weight: 700;
+  display: inline-block;
+  transform: rotate(1.5deg);
+  transform-origin: left bottom;
+  margin-bottom: 0.2rem;
+  transition: color 0.4s ease;
+}
+
+.dark .hero-greeting-cursive {
+  color: #fff;
 }
 
 .hero-subtitle {
@@ -83,7 +103,8 @@
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
-  background-color: #FAF6F5; /* Keep it light for the avatar's eyes */
+  background-color: #FAF6F5;
+  /* Keep it light for the avatar's eyes */
   position: relative;
   z-index: 10;
   box-shadow: var(--shadow-soft);
@@ -95,9 +116,17 @@
 }
 
 @keyframes float {
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(-20px); }
-  100% { transform: translateY(0px); }
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 .avatar-glow {
@@ -133,29 +162,34 @@
     gap: 3rem;
     padding-top: 3rem;
   }
-  
+
   .hero-content {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
+
   .hero-title {
     font-size: 3rem;
   }
-  
+
+  .hero-greeting-cursive {
+    font-size: 3.5rem;
+  }
+
   .hero-subtitle {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   .hero-actions {
     justify-content: center;
   }
 
   .hero-image-wrapper {
-    grid-row: 1; /* Move image above text on mobile */
+    grid-row: 1;
+    /* Move image above text on mobile */
   }
 
   .hero-avatar-container {
@@ -168,7 +202,7 @@
     flex-direction: column;
     width: 100%;
   }
-  
+
   .hero-actions .btn {
     width: 100%;
   }

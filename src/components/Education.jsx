@@ -16,7 +16,7 @@ const educationData = [
     institution: 'Centro Universitário UniAmérica (Atual)',
     period: '2024 - Presente',
     description: 'Curso superior focado no desenvolvimento de sistemas utilizando metodologias ativas e projetos reais de mercado. Ênfase no desenvolvimento Full Stack (front-end e back-end), engenharia de software ágil, modelagem e integração de bancos de dados corporativos.',
-    skills: ['React', 'Node.js', 'C# / .NET', 'PHP', 'Java', 'SQL Server / MySQL', 'Git & GitHub', 'Scrum'],
+    skills: ['React', 'Node.js', 'Java', 'SQL Server / MySQL', 'Git & GitHub', 'Scrum'],
     side: 'right'
   },
   {
@@ -36,7 +36,11 @@ export default function Education() {
     observerRef.current = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
+          entry.target.classList.remove('hidden-reveal');
           entry.target.classList.add('reveal');
+        } else {
+          entry.target.classList.add('hidden-reveal');
+          entry.target.classList.remove('reveal');
         }
       });
     }, {

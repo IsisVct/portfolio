@@ -41,7 +41,11 @@ export default function Projects() {
     observerRef.current = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
+          entry.target.classList.remove('hidden-reveal');
           entry.target.classList.add('reveal');
+        } else {
+          entry.target.classList.add('hidden-reveal');
+          entry.target.classList.remove('reveal');
         }
       });
     }, {

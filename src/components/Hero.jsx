@@ -28,7 +28,7 @@ export default function Hero() {
             <span className="cursor-blink">|</span>
           </span>
           <h1 className="hero-title delay-200">
-            Olá, eu sou a <br />
+            <span className="hero-greeting-cursive">Olá, eu sou a</span> <br />
             <span className="text-gradient">Isabelle Victoria</span>
           </h1>
           <p className="hero-subtitle delay-300">
