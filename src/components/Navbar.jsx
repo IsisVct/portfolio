@@ -66,7 +66,7 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container container">
         <a href="#" className="navbar-logo" onClick={closeMobileMenu}>
-          Isabelle<span className="dot">.</span>
+          Isabelle<span className="dot">★</span>
         </a>
         <div className="navbar-links">
           <a href="#sobre" className="nav-link">Sobre Mim</a>

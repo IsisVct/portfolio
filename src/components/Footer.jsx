@@ -25,7 +25,7 @@ export default function Footer() {
     <footer className="footer-section">
       <div className="container footer-content">
         <div className="footer-brand">
-          <span className="footer-logo">Isabelle<span className="dot">.</span></span>
+          <span className="footer-logo">Isabelle<span className="dot">★</span></span>
           <p className="footer-tagline">Transformando ideias em código.</p>
         </div>
         
