@@ -8,14 +8,14 @@ export default function About() {
       <div className="glass-panel about-panel">
         <div className="about-content">
           <h2 className="section-title">Sobre Mim</h2>
-          
+
           <h3 className="about-greeting">
             Muito prazer, Isabelle aqui!
             <span className="about-star-badge">
               <Star size={16} fill="#fff" stroke="#fff" />
             </span>
           </h3>
-          
+
           <p className="about-text">
             Sou <strong>desenvolvedora</strong> e gosto de transformar ideias em <strong>produtos digitais</strong> que funcionam de verdade. No dia a dia, eu faço a ponte entre a <strong>estrutura dos dados</strong> e o que o usuário final enxerga na tela, sempre tentando deixar tudo o mais <strong>fluido e inteligente</strong> possível.
           </p>
@@ -24,7 +24,7 @@ export default function About() {
           </p>
         </div>
         <div className="about-visual">
-          <img src="/foto--.png" alt="Isabelle Victoria" className="profile-image" />
+          <img src="/foto-.webp" alt="Isabelle Victoria" className="profile-image" />
         </div>
       </div>
     </section>

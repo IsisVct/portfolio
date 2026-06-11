@@ -13,7 +13,7 @@ const projects = [
     title: 'Bela Venda — Sistema de Gestão',
     description: 'Sistema completo para revendedoras de cosméticos que centraliza vendas, estoque e financeiro. Inclui automação (como leitura de nota fiscal via PDF) e controle inteligente de pedidos, permitindo operação eficiente e baseada em dados.',
     tags: ['React', 'Supabase (Auth + RLS)', 'PostgreSQL', 'PDF Parsing'],
-    image: '/belavenda.png',
+    image: '/belavenda.webp',
     github: 'https://github.com/IsisVct/BelaVenda',
     demo: 'https://bela-venda.vercel.app/'
   },
@@ -21,7 +21,7 @@ const projects = [
     title: 'Monitor Regulatório',
     description: 'Sistema de automação que coleta e organiza dados de portais financeiros (BACEN, CVM) via web scraping. Elimina verificação manual e mantém informações atualizadas continuamente para análise.',
     tags: ['.NET', 'Web Scraping', 'Automação', 'ETL'],
-    image: '/monitor.png',
+    image: '/monitor.webp',
     github: 'https://github.com/IsisVct/monitor-regulatorio-front',
     demo: 'https://monitor-regulatorio-front.vercel.app/'
   },
@@ -29,7 +29,7 @@ const projects = [
     title: 'Sentiment API',
     description: 'API de análise de sentimentos que utiliza técnicas de NLP e machine learning para classificar textos automaticamente. Permite análise escalável de dados textuais e suporte à tomada de decisão baseada em opinião.',
     tags: ['Python', 'Machine Learning', 'NLP', 'FastAPI'],
-    image: '/sentiment.png',
+    image: '/sentiment.webp',
     github: 'https://github.com/Douglascrc/SentimentAnalysisAPI'
   }
 ];
